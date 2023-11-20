@@ -22,14 +22,15 @@ setup(
     py_modules=["flashvideosynchronization", "montage"],
     install_requires=[
         "imagesource",
-        "sklearn",
+        "scikit-learn",
         "joblib",
         "numpy",
         "matplotlib",
         "scipy",
         "pyyaml",
         "opencv-python-headless",
-        "tqdm",
+        "tqdm"
+        "moviepy",
     ],
     extras_require={"visualization": "seaborn"},
     scripts=["synchronizevideo"],
